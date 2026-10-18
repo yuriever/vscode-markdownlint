@@ -43,6 +43,9 @@
 	"dependencies": {
 		"markdownlint-cli2": "0.23.2"
 	},
+	"overrides": {
+		"markdownlint": "github:yuriever/markdownlint#90a37d51d63b65e7fa431e45f24c23d18c6eda8b"
+	},
 	"devDependencies": {
 		"@eslint/js": "10.0.1",
 		"@ljharb/tsconfig": "0.3.2",
