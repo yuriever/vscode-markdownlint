@@ -1,12 +1,12 @@
 import fs from "node:fs/promises";
-import { describe, test } from "node:test";
+import { test } from "node:test";
 
 // eslint-disable-next-line @stylistic/quote-props
 import packageJson from "../package.json" with { type: "json" };
 // eslint-disable-next-line @stylistic/quote-props, n/no-unpublished-import
 import markdownlintPackageJson from "../node_modules/markdownlint/package.json" with { type: "json" };
 
-describe("metadata", () => {
+test.suite(import.meta.url.replace(/^.*?\/(?<name>[^/]*)$/u, "$<name>"), () => {
 
 	test("version numbers match", async (t) => {
 		t.plan(292);
@@ -34,7 +34,7 @@ describe("metadata", () => {
 			}
 			const firstChangelogRe = /\* (\d+\.\d+\.\d+) - /u;
 			match = firstChangelogRe.exec(content);
-			// eslint-disable-next-line node-test/no-conditional-in-test
+			// eslint-disable-next-line node-test/no-conditional-in-test, unicorn/prefer-continue
 			if (match) {
 				const patchRe = /\.\d+$/u;
 				// eslint-disable-next-line node-test/no-conditional-assertion

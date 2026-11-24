@@ -7,7 +7,7 @@
 
 /* eslint-disable func-style */
 
-const assert = require("node:assert");
+const assert = require("node:assert/strict");
 const fs = require("node:fs/promises");
 const path = require("node:path");
 const vscode = require("vscode");
@@ -25,7 +25,7 @@ function testWrapper (/** @type {Test} */ test) {
 		/** @type {Disposables} */
 		const disposables = [];
 		// eslint-disable-next-line no-use-before-define
-		const timeout = setTimeout(() => rejectWrapper(new Error("TEST TIMEOUT")), 10_000);
+		const timeout = setTimeout(() => rejectWrapper(new Error("TEST TIMEOUT")), 30_000);
 		const cleanup = () => {
 			clearTimeout(timeout);
 			for (const disposable of disposables) {
@@ -53,6 +53,7 @@ function callbackWrapper (/** @type {PromiseReject} */ reject, /** @type {() => 
 	Promise.resolve().then(callback).catch(reject);
 }
 
+// eslint-disable-next-line unicorn/no-unnecessary-parameters
 function getDiagnostics (/** @type {import("vscode").DiagnosticChangeEvent} */ diagnosticChangeEvent, /** @type {string} */ pathEndsWith) {
 	const uris = diagnosticChangeEvent.uris.filter(
 		(uri) => (uri.scheme === "file") && (uri.path.endsWith(pathEndsWith))

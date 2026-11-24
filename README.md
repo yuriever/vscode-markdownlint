@@ -36,61 +36,61 @@ By default, `markdownlint` will scan and report issues for files that VS Code tr
 
 ## Rules
 
-* **[MD001](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md001.md)** *heading-increment* - Heading levels should only increment by one level at a time
-* **[MD003](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md003.md)** *heading-style* - Heading style
-* **[MD004](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md004.md)** *ul-style* - Unordered list style
-* **[MD005](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md005.md)** *list-indent* - Inconsistent indentation for list items at the same level
-* **[MD007](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md007.md)** *ul-indent* - Unordered list indentation
-* **[MD009](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md009.md)** *no-trailing-spaces* - Trailing spaces
-* **[MD010](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md010.md)** *no-hard-tabs* - Hard tabs
-* **[MD011](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md011.md)** *no-reversed-links* - Reversed link syntax
-* **[MD012](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md012.md)** *no-multiple-blanks* - Multiple consecutive blank lines
-* **[MD013](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md013.md)** *line-length* - Line length
-* **[MD014](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md014.md)** *commands-show-output* - Dollar signs used before commands without showing output
-* **[MD018](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md018.md)** *no-missing-space-atx* - No space after hash on atx style heading
-* **[MD019](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md019.md)** *no-multiple-space-atx* - Multiple spaces after hash on atx style heading
-* **[MD020](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md020.md)** *no-missing-space-closed-atx* - No space inside hashes on closed atx style heading
-* **[MD021](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md021.md)** *no-multiple-space-closed-atx* - Multiple spaces inside hashes on closed atx style heading
-* **[MD022](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md022.md)** *blanks-around-headings* - Headings should be surrounded by blank lines
-* **[MD023](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md023.md)** *heading-start-left* - Headings must start at the beginning of the line
-* **[MD024](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md024.md)** *no-duplicate-heading* - Multiple headings with the same content
-* **[MD025](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md025.md)** *single-title/single-h1* - Multiple top level headings in the same document
-* **[MD026](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md026.md)** *no-trailing-punctuation* - Trailing punctuation in heading
-* **[MD027](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md027.md)** *no-multiple-space-blockquote* - Multiple spaces after blockquote symbol
-* **[MD028](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md028.md)** *no-blanks-blockquote* - Blank line inside blockquote
-* **[MD029](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md029.md)** *ol-prefix* - Ordered list item prefix
-* **[MD030](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md030.md)** *list-marker-space* - Spaces after list markers
-* **[MD031](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md031.md)** *blanks-around-fences* - Fenced code blocks should be surrounded by blank lines
-* **[MD032](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md032.md)** *blanks-around-lists* - Lists should be surrounded by blank lines
-* **[MD033](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md033.md)** *no-inline-html* - Inline HTML
-* **[MD034](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md034.md)** *no-bare-urls* - Bare URL used
-* **[MD035](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md035.md)** *hr-style* - Horizontal rule style
-* **[MD036](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md036.md)** *no-emphasis-as-heading* - Emphasis used instead of a heading
-* **[MD037](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md037.md)** *no-space-in-emphasis* - Spaces inside emphasis markers
-* **[MD038](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md038.md)** *no-space-in-code* - Spaces inside code span elements
-* **[MD039](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md039.md)** *no-space-in-links* - Spaces inside link text
-* **[MD040](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md040.md)** *fenced-code-language* - Fenced code blocks should have a language specified
-* **[MD041](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md041.md)** *first-line-heading/first-line-h1* - First line in file should be a top level heading
-* **[MD042](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md042.md)** *no-empty-links* - No empty links
-* **[MD043](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md043.md)** *required-headings* - Required heading structure
-* **[MD044](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md044.md)** *proper-names* - Proper names should have the correct capitalization
-* **[MD045](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md045.md)** *no-alt-text* - Images should have alternate text (alt text)
-* **[MD046](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md046.md)** *code-block-style* - Code block style
-* **[MD047](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md047.md)** *single-trailing-newline* - Files should end with a single newline character
-* **[MD048](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md048.md)** *code-fence-style* - Code fence style
-* **[MD049](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md049.md)** *emphasis-style* - Emphasis style should be consistent
-* **[MD050](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md050.md)** *strong-style* - Strong style should be consistent
-* **[MD051](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md051.md)** *link-fragments* - Link fragments should be valid
-* **[MD052](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md052.md)** *reference-links-images* - Reference links and images should use a label that is defined
-* **[MD053](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md053.md)** *link-image-reference-definitions* - Link and image reference definitions should be needed
-* **[MD054](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md054.md)** *link-image-style* - Link and image style
-* **[MD055](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md055.md)** *table-pipe-style* - Table pipe style
-* **[MD056](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md056.md)** *table-column-count* - Table column count
-* **[MD058](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md058.md)** *blanks-around-tables* - Tables should be surrounded by blank lines
-* **[MD059](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md059.md)** *descriptive-link-text* - Link text should be descriptive
-* **[MD060](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md060.md)** *table-column-style* - Table column style
+* **[MD001](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md001.md)** *heading-increment* - Heading levels should only increment by one level at a time
+* **[MD003](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md003.md)** *heading-style* - Heading style
+* **[MD004](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md004.md)** *ul-style* - Unordered list style
+* **[MD005](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md005.md)** *list-indent* - Inconsistent indentation for list items at the same level
+* **[MD007](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md007.md)** *ul-indent* - Unordered list indentation
+* **[MD009](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md009.md)** *no-trailing-spaces* - Trailing spaces
+* **[MD010](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md010.md)** *no-hard-tabs* - Hard tabs
+* **[MD011](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md011.md)** *no-reversed-links* - Reversed link syntax
+* **[MD012](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md012.md)** *no-multiple-blanks* - Multiple consecutive blank lines
+* **[MD013](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md013.md)** *line-length* - Line length
+* **[MD014](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md014.md)** *commands-show-output* - Dollar signs used before commands without showing output
+* **[MD018](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md018.md)** *no-missing-space-atx* - No space after hash on atx style heading
+* **[MD019](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md019.md)** *no-multiple-space-atx* - Multiple spaces after hash on atx style heading
+* **[MD020](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md020.md)** *no-missing-space-closed-atx* - No space inside hashes on closed atx style heading
+* **[MD021](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md021.md)** *no-multiple-space-closed-atx* - Multiple spaces inside hashes on closed atx style heading
+* **[MD022](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md022.md)** *blanks-around-headings* - Headings should be surrounded by blank lines
+* **[MD023](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md023.md)** *heading-start-left* - Headings must start at the beginning of the line
+* **[MD024](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md024.md)** *no-duplicate-heading* - Multiple headings with the same content
+* **[MD025](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md025.md)** *single-title/single-h1* - Multiple top level headings in the same document
+* **[MD026](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md026.md)** *no-trailing-punctuation* - Trailing punctuation in heading
+* **[MD027](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md027.md)** *no-multiple-space-blockquote* - Multiple spaces after blockquote symbol
+* **[MD028](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md028.md)** *no-blanks-blockquote* - Blank line inside blockquote
+* **[MD029](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md029.md)** *ol-prefix* - Ordered list item prefix
+* **[MD030](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md030.md)** *list-marker-space* - Spaces after list markers
+* **[MD031](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md031.md)** *blanks-around-fences* - Fenced code blocks should be surrounded by blank lines
+* **[MD032](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md032.md)** *blanks-around-lists* - Lists should be surrounded by blank lines
+* **[MD033](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md033.md)** *no-inline-html* - Inline HTML
+* **[MD034](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md034.md)** *no-bare-urls* - Bare URL used
+* **[MD035](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md035.md)** *hr-style* - Horizontal rule style
+* **[MD036](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md036.md)** *no-emphasis-as-heading* - Emphasis used instead of a heading
+* **[MD037](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md037.md)** *no-space-in-emphasis* - Spaces inside emphasis markers
+* **[MD038](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md038.md)** *no-space-in-code* - Spaces inside code span elements
+* **[MD039](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md039.md)** *no-space-in-links* - Spaces inside link text
+* **[MD040](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md040.md)** *fenced-code-language* - Fenced code blocks should have a language specified
+* **[MD041](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md041.md)** *first-line-heading/first-line-h1* - First line in file should be a top level heading
+* **[MD042](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md042.md)** *no-empty-links* - No empty links
+* **[MD043](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md043.md)** *required-headings* - Required heading structure
+* **[MD044](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md044.md)** *proper-names* - Proper names should have the correct capitalization
+* **[MD045](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md045.md)** *no-alt-text* - Images should have alternate text (alt text)
+* **[MD046](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md046.md)** *code-block-style* - Code block style
+* **[MD047](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md047.md)** *single-trailing-newline* - Files should end with a single newline character
+* **[MD048](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md048.md)** *code-fence-style* - Code fence style
+* **[MD049](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md049.md)** *emphasis-style* - Emphasis style should be consistent
+* **[MD050](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md050.md)** *strong-style* - Strong style should be consistent
+* **[MD051](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md051.md)** *link-fragments* - Link fragments should be valid
+* **[MD052](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md052.md)** *reference-links-images* - Reference links and images should use a label that is defined
+* **[MD053](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md053.md)** *link-image-reference-definitions* - Link and image reference definitions should be needed
+* **[MD054](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md054.md)** *link-image-style* - Link and image style
+* **[MD055](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md055.md)** *table-pipe-style* - Table pipe style
+* **[MD056](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md056.md)** *table-column-count* - Table column count
+* **[MD058](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md058.md)** *blanks-around-tables* - Tables should be surrounded by blank lines
+* **[MD059](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md059.md)** *descriptive-link-text* - Link text should be descriptive
+* **[MD060](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md060.md)** *table-column-style* - Table column style
 
-See [markdownlint's Rules.md file](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/Rules.md) for more details.
+See [markdownlint's Rules.md file](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/Rules.md) for more details.
 
 The following rules can be automatically fixed by moving the cursor to a rule violation (wavy underlined text) and typing `Ctrl+.`/`Ctrl+.`/`⌘.` or clicking the light bulb icon.
 
@@ -169,7 +169,7 @@ To temporarily disable linting of Markdown documents, run the `markdownlint.togg
 
 ## Configure
 
-By default (i.e., without customizing anything), all rules are enabled *except* [`MD013`/`line-length`](https://github.com/DavidAnson/markdownlint/blob/v0.41.1/doc/md013.md) because many files include lines longer than the conventional 80 character limit:
+By default (i.e., without customizing anything), all rules are enabled *except* [`MD013`/`line-length`](https://github.com/DavidAnson/markdownlint/blob/v0.42.2/doc/md013.md) because many files include lines longer than the conventional 80 character limit:
 
 ```json
 {
@@ -221,11 +221,11 @@ If none of these files exist, a new `.markdownlint.json` containing the default 
 
 > **Note**: Because JavaScript is cached by VS Code after being loaded, edits to `.markdownlint.cjs`/`.markdownlint.mjs`/`.markdownlint-cli2.cjs`/`.markdownlint-cli2.mjs` require a restart of VS Code.
 
-### ~~markdownlint.config~~
+### markdownlint.config
 
-The `markdownlint.config` property has been deprecated; please use a configuration file instead ([as outlined in the Configure section](#configure)).
+> **Note**: Using a project-local configuration file (as outlined above) instead of `markdownlint.config` is recommended because file-based configuration also works with command-line tools.
 
-When `markdownlint.config` is present in workspace context, replacing it can be done by creating a `.markdownlint.json` file in the root of the workspace with the value of the setting as its content. For example, removing this setting from the project's `.vscode/settings.json`:
+The configuration above would look like the following if stored in [VS Code's user/workspace settings](https://code.visualstudio.com/docs/configure/settings):
 
 ```json
 {
@@ -238,7 +238,17 @@ When `markdownlint.config` is present in workspace context, replacing it can be 
 }
 ```
 
-Leaving just:
+When using `extends` in this context:
+
+* File paths referenced by `extends` from configuration files within a workspace are resolved relative to that configuration file.
+* When running VS Code locally:
+  * File paths referenced by `extends` from user settings are resolved relative to the user's home directory (e.g., `%USERPROFILE%` on Windows or `$HOME` on macOS/Linux).
+  * File paths referenced by `extends` from workspace settings are resolved relative to the workspace folder.
+  * VS Code's [predefined variables](https://code.visualstudio.com/docs/reference/variables-reference) `${userHome}` and `${workspaceFolder}` can be used within an `extends` path from user or workspace settings to override the default behavior.
+
+#### Alternatives
+
+When `markdownlint.config` is present in workspace context, replacing it can be done by creating a `.markdownlint.json` file in the root of the workspace with the value of the setting as its content. For example, removing the setting from the project's `.vscode/settings.json`:
 
 ```json
 {
@@ -256,7 +266,8 @@ And adding a `.markdownlint.json` file with the corresponding configuration to t
 }
 ```
 
-When `markdownlint.config` is present in user context, replacing it can be done by creating a `.markdownlint.json` file (as above) in the user's home directory and setting `markdownlint.configFile` to the corresponding path (for example, `${userHome}/.markdownlint.json`). Similar to the scenario above, the user setting from something like `~/Library/Application Support/Code/User/settings.json` would become:
+When `markdownlint.config` is present in user context, replacing it can be done by creating a `.markdownlint.json` file (as above) in the user's home directory and setting `markdownlint.configFile` to the corresponding path (for example, `${userHome}/.markdownlint.json`).
+Similar to the scenario above, the user setting in `~/Library/Application Support/Code/User/settings.json` (macOS path) would become:
 
 ```json
 {
@@ -264,6 +275,9 @@ When `markdownlint.config` is present in user context, replacing it can be done 
     "markdownlint.configFile": "${userHome}/.markdownlint.json"
 }
 ```
+
+> **Note**: If [user settings are being synchronized](https://code.visualstudio.com/docs/configure/settings#_settings-sync), `markdownlint.configFile` should point to a location that is available to all environments.
+> If a common location is not available, `markdownlint.configFile` may not be suitable.
 
 ### markdownlint.configFile
 
